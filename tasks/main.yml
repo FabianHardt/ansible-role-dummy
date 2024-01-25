@@ -2,3 +2,7 @@
 - name: Task is running from within the role
   ansible.builtin.debug:
     msg: "This is a task from dummy role."
+
+- name: DEBUG
+  ansible.builtin.debug:
+    msg: "This is new in development"
